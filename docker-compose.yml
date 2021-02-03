@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  speed-test-logger:
-    image: speed-test-logger
+  file-download-logger:
+    image: file-download-logger
     build: ./
     environment:
       - "DB_HOST=localhost"
